@@ -9,13 +9,6 @@ import { useNavigation } from '@react-navigation/native';
 
 const { width: WIDTH, height: HEIGHT } = Dimensions.get('window');
 
-const mediaQuery = WIDTH < 768 ? {
-    containerWidth: `
-        width: 100%;
-    `,
-}:{
-};
-
 const platformIOS = Platform.OS === 'ios' ? {
     dataWidth: `
         width: 100%;

@@ -21,7 +21,7 @@ const Input = ({ placeholder, value, onChange, onSubmit }) => {
     return(
         <TextInput
             placeholder={placeholder}
-            returnKeyType={'Search'}
+            returnKeyType={'search'}
             autoCorrect={false}
             value={value}
             onChangeText={onChange}
