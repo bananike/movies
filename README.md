@@ -1,2 +1,3 @@
-# Test React Native Project
+# Movies
 
+React Native Text Project
