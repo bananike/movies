@@ -1,3 +1,2 @@
-# Movies
-
-React Native Text Project
+# movies
+native project
